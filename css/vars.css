@@ -1,0 +1,13 @@
+:root {
+  --Text-Dark: #403f3d;
+  --Text-Light: #e1d4c9;
+  --Text-Accent: #b0907a;
+  --Text-Wheit: #fff;
+
+  --Background-Body: #e1d4c9;
+  --Background-Container: #665f55;
+  --Background-Backdrop: rgba(64, 63, 61, 0.8);
+
+  --Border-Light: #c1b6ad;
+  --Border-Dark: #665f55;
+}

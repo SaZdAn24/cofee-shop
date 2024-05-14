@@ -1,0 +1,106 @@
+.download {
+  width: 1360px;
+  height: 630px;
+  margin-left: 40px;
+  margin-top: 100px;
+}
+.apps {
+  color: var(--Text-Dark, #403f3d);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  margin-bottom: 0px;
+  position: relative;
+  top: 50px;
+}
+.apps > span {
+  color: var(--Text-Accent, #b0907a);
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Inter;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 125%;
+}
+.today {
+  color: var(--Text-Dark, #403f3d);
+  font-feature-settings: "clig" off, "liga" off;
+  position: relative;
+  top: 40px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.button {
+  position: relative;
+  top: 40px;
+}
+.apple {
+  width: 200px;
+  height: 64px;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  border-radius: 100px;
+  border: 1px solid var(--Border-Dark, #665f55);
+  cursor: pointer;
+}
+.apple > span,
+.play > span {
+  color: var(--Text-Dark, #403f3d);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.icons {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+.play {
+  position: relative;
+  left: 20px;
+  top: 18ox;
+  width: 200px;
+  height: 64px;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  border-radius: 100px;
+  border: 1px solid var(--Border-Dark, #665f55);
+  cursor: pointer;
+}
+.icons-play {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 12px;
+  left: 20px;
+}
+.iphone {
+  position: relative;
+  left: 600px;
+  right: auto;
+  bottom: 350px;
+  width: 630px;
+  height: 630px;
+}

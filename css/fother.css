@@ -1,0 +1,115 @@
+.podval {
+  width: 1360px;
+  height: 460px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 100px;
+  border-radius: 40px;
+  background: var(--Background-Container, #665f55);
+}
+.sip {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  color: var(--Text-Light, #e1d4c9);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+.sip > span {
+  color: var(--Text-Accent, #b0907a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 125%;
+}
+.twitter {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.instagram {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.facebook {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.contacts {
+  width: 530px;
+  height: 186px;
+  position: relative;
+  left: 800px;
+  bottom: 175px;
+}
+.conta {
+  color: var(--Text-Light, #e1d4c9);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+.green {
+  color: var(--Text-Light, #e1d4c9);
+  font-feature-settings: "clig" off, "liga" off;
+  position: relative;
+  bottom: 42px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.am {
+  color: var(--Text-Light, #e1d4c9);
+  font-feature-settings: "clig" off, "liga" off;
+  position: relative;
+  bottom: 110px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.number {
+  color: var(--Text-Light, #e1d4c9);
+  font-feature-settings: "clig" off, "liga" off;
+  position: relative;
+  bottom: 75px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.phone {
+  position: relative;
+  bottom: 35px;
+}
+.clock {
+  position: relative;
+  bottom: 70px;
+}

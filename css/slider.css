@@ -1,0 +1,99 @@
+.slider {
+  width: 1360px;
+  height: 799px;
+  margin-left: 40px;
+}
+.favorite {
+  margin-top: 100px;
+  color: var(--Text-Dark, #403f3d);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+.favorite > span {
+  color: var(--Text-Accent, #b0907a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 125%;
+}
+.arrow-left {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid var(--Border-Dark, #665f55);
+  margin-right: 350px;
+}
+.arrow-right {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid var(--Border-Dark, #665f55);
+  margin-left: 350px;
+}
+.coffee-slider {
+  width: 480px;
+  height: 480px;
+}
+.divflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frappuccino {
+  color: var(--Text-Dark, #403f3d);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  margin-bottom: 16px;
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+.takes {
+  color: var(--Text-Dark, #403f3d);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.price {
+  color: var(--Text-Dark, #403f3d);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+.slider-container {
+  overflow: hidden;
+}
+
+.slider {
+  display: none;
+}
+
+/* Показываем только первый слайд изначально */
+.slider:first-child {
+  display: block;
+}

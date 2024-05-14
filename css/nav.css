@@ -1,0 +1,56 @@
+.inki {
+  font-size: 20px;
+  margin-left: 40px;
+}
+li {
+  list-style: none;
+}
+
+.linki a {
+  text-decoration: none;
+  padding-left: 40px;
+  color: var(--Text-Dark);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--Text-Wheit);
+  cursor: pointer;
+}
+.obertka {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.menuu {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navigashen > nav > ul {
+  display: flex;
+}
+.linki1 a {
+  text-decoration: none;
+  margin-right: 8px;
+  color: var(--Text-Dark);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
